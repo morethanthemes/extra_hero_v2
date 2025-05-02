@@ -1,5 +1,5 @@
 {
-  "name": "drupal/mt_hero_v2",
+  "name": "morethanthemes/extra_hero_v2",
   "description": "Adds Hero v2 block.",
   "type": "drupal-recipe",
   "require": {

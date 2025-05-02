@@ -1,0 +1,53 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_mt_hero_v2_layout
+field_name: field_mt_hero_v2_layout
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: two-col-67-33
+      label: '8 : 4'
+    -
+      value: two-col-58-42
+      label: '7 : 5'
+    -
+      value: two-col-50-50
+      label: '6 : 6'
+    -
+      value: two-col-42-58
+      label: '5 : 7'
+    -
+      value: two-col-33-67
+      label: '4 : 8'
+    -
+      value: 'one-col-60 mt-image-first'
+      label: '6 Image first'
+    -
+      value: 'one-col-80 mt-image-first'
+      label: '8 Image first'
+    -
+      value: 'one-col-100 mt-image-first'
+      label: '12 Image first'
+    -
+      value: 'one-col-60 mt-text-first'
+      label: '6 Text first'
+    -
+      value: 'one-col-80 mt-text-first'
+      label: '8 Text first'
+    -
+      value: 'one-col-100 mt-text-first'
+      label: '12 Text first'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

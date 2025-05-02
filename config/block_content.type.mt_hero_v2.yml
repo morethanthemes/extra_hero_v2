@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: mt_hero_v2
+label: 'Hero v2'
+revision: 0
+description: 'Mt Hero v2 block'

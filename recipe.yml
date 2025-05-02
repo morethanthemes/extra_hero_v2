@@ -1,0 +1,10 @@
+name: 'Mt Hero v2'
+description: "Adds a Hero v2 block."
+type: 'Site'
+install:
+  - block
+  - block_content
+  - field_group
+config:
+  strict:
+    - block_content.type.mt_hero_v2

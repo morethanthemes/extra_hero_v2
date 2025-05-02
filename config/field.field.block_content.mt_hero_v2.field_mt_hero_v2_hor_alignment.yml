@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_hero_v2
+    - field.storage.block_content.field_mt_hero_v2_hor_alignment
+  module:
+    - options
+id: block_content.mt_hero_v2.field_mt_hero_v2_hor_alignment
+field_name: field_mt_hero_v2_hor_alignment
+entity_type: block_content
+bundle: mt_hero_v2
+label: 'Horizontal Alignment'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: image-right
+default_value_callback: ''
+settings: {  }
+field_type: list_string

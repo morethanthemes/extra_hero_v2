@@ -1,0 +1,69 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.mt_hero_v2
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_action
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_description
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_hor_alignment
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_image
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_layout
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_note
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_title
+    - field.field.block_content.mt_hero_v2.field_mt_hero_v2_ver_alignment
+  module:
+    - image
+    - link
+    - text
+id: block_content.mt_hero_v2.default
+targetEntityType: block_content
+bundle: mt_hero_v2
+mode: default
+content:
+  field_mt_hero_v2_action:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_mt_hero_v2_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_mt_hero_v2_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_mt_hero_v2_note:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_mt_hero_v2_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_mt_hero_v2_hor_alignment: true
+  field_mt_hero_v2_layout: true
+  field_mt_hero_v2_ver_alignment: true

@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: block_content
+  uuid: 70e5c3a5-f663-4a74-b657-b823c262ae97
+  bundle: mt_hero_v2
+  default_langcode: en
+  depends:
+    3ab6894f-7c58-4499-a1bb-23354780f87c: file
+default:
+  status:
+    -
+      value: true
+  info:
+    -
+      value: 'Hero block - Landing page 1'
+  reusable:
+    -
+      value: true
+  revision_translation_affected:
+    -
+      value: true
+  field_mt_hero_v2_action:
+    -
+      uri: 'internal:/contact'
+      title: 'Start free trial'
+      options: {  }
+  field_mt_hero_v2_description:
+    -
+      value: '<p>Faster collaborative thinking</p>'
+      format: content_format
+  field_mt_hero_v2_hor_alignment:
+    -
+      value: image-left
+  field_mt_hero_v2_image:
+    -
+      entity: 3ab6894f-7c58-4499-a1bb-23354780f87c
+      alt: 'hero image'
+      title: 'hero image'
+      width: 723
+      height: 677
+  field_mt_hero_v2_layout:
+    -
+      value: two-col-50-50
+  field_mt_hero_v2_note:
+    -
+      value: 'No credit card required. Free for the first month, then $9.99/mo'
+      format: content_format
+  field_mt_hero_v2_title:
+    -
+      value: 'Business solutions for success'
+  field_mt_hero_v2_ver_alignment:
+    -
+      value: align-items-center

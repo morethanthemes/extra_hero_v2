@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: 3ab6894f-7c58-4499-a1bb-23354780f87c
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: landing-page-1-hero.png
+  uri:
+    -
+      value: 'public://custom-blocks/landing-page-1-hero.png'
+  filemime:
+    -
+      value: image/png
+  filesize:
+    -
+      value: 431161
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1746684990
